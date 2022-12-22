@@ -2,19 +2,16 @@ on:
   push:
     branches:
       - master
-
-
-
+    
 
 jobs:
   build:
     run-on: ubuntu-latest
 
-    steps: 
-      - name: 'Testing Github Action'
+    steps:
+      - name: 'maszen testing'
         run: pwd
 
-      - name: 'Testing Printing'
-        run: echo Ahmed
-
+      - name: 'maszen printing'
+        run: echo mazen
 
