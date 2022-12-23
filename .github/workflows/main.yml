@@ -16,11 +16,14 @@ jobs:
 
       - uses: actions/checkout@v3
 
-      - name: 'Testing Github action'
-        run: pwd
+      - name: "Login to Docker hub "
+        run: docker login --username mazene611 --password dckr_pat_xPO_h2hZPDoVhnRD9h-XznJsP4g
 
-      - name: 'Before'
-        run: ls 
+      # - name: 'Testing Github action'
+      #   run: pwd
 
-      - name: 'After'
-        run: ls
+      # - name: 'Before'
+      #   run: ls 
+
+      # - name: 'After'
+      #   run: ls
